@@ -49,6 +49,10 @@ window.addEventListener("mouseover", () => {
   audio.play();
   audio.volume = 0.1;
 });
+window.addEventListener("mouseout", () => {
+  audio.pause();
+ 
+});
 window.addEventListener("dblclick", () => {
   audio.play();
 });
