@@ -4,10 +4,10 @@ const remBtn = document.getElementById("remBtn");
 const searchBtn = document.getElementById("reqBtn");
 const form = document.getElementById("form");
 const gifAreaDiv = document.getElementById("gif-area");
-const imageUrl = "https://image.tmdb.org/t/p/w500";
-const api_key =config.API_KEY;
 const url = "https://api.themoviedb.org";
+const imageUrl = "https://image.tmdb.org/t/p/w500";
 const path = "search/movie";
+const api_key =config.API_KEY;
 
 // function event listener
 const remove = () => {
