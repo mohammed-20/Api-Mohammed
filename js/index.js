@@ -3,7 +3,6 @@ const search = document.getElementById("inputApi");
 const remBtn = document.getElementById("remBtn");
 const searchBtn = document.getElementById("reqBtn");
 const form = document.getElementById("form");
-const audio = document.getElementById("audio");
 const gifAreaDiv = document.getElementById("gif-area");
 const url = "https://api.themoviedb.org";
 const imageUrl = "https://image.tmdb.org/t/p/w500";
@@ -45,17 +44,3 @@ searchBtn.addEventListener("mouseleave", leaveMouseSearch);
 remBtn.addEventListener("mouseenter", enterMouseRemove);
 remBtn.addEventListener("mouseleave", leaveMouseRemove);
 
-window.addEventListener("mouseover", () => {
-  audio.play();
-  audio.volume = 0.1;
-});
-window.addEventListener("mouseout", () => {
-  audio.pause();
- 
-});
-window.addEventListener("dblclick", () => {
-  audio.play();
-});
-window.addEventListener("click", () => {
-  audio.pause();
-});
